@@ -99,7 +99,7 @@ const Provider = props => (
       next={props.next}
       previous={props.previous}
       goto={props.goto}
-      url="ws://sirtitles-server.herokuapp.com"
+      url="wss://sirtitles-server.herokuapp.com"
       path="/slides/slide-deck-1"
     />
   </div>
