@@ -94,24 +94,12 @@ const Provider = props => (
         margin: 16
       }}
     >
-      <a
-        href="https://kevinisom.info"
-        css={{
-          color: "#0D1117",
-          textDecoration: "none",
-          "&:hover": {
-            color: "#0D1117"
-          }
-        }}
-      >
-        Kevin Isom
-      </a>
     </div>
     <RemoteControl
       next={props.next}
       previous={props.previous}
       goto={props.goto}
-      url="ws://157.245.60.189:8080"
+      url="ws://sirtitles-server.herokuapp.com"
       path="/slides/slide-deck-1"
     />
   </div>
