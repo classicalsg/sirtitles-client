@@ -1,12 +1,12 @@
 import React from "react";
 import RemoteControl from "mdx-deck-remote-control";
-const yellow = "#FFD500";
+const black = "#000000";
 const baseTheme = {
   font: "system-ui, sans-serif",
   monospace: "Menlo, monospace",
 
   colors: {
-    text: "#000",
+    text: "#FFFFFF",
     background: "white",
     link: "#07c",
     pre: "#f0f",
@@ -49,11 +49,11 @@ const theme = {
     "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Mono",
   colors: {
     text: "#0D1117",
-    background: yellow,
+    background: black,
     link: "#333",
-    pre: yellow,
+    pre: black,
     preBackground: "#0D1117",
-    code: yellow,
+    code: black,
     codeBackground: "#0D1117"
   },
   heading: {
